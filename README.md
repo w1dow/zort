@@ -3,7 +3,7 @@
 Zort is a Java-based project that organizes and processes images using computer vision. It can detect faces and manage datasets for machine learning models.
 
 #Demo
-[![BURE DIN - Seedhe Maut ft. Mick Jenkins(https://youtu.be/lLQSGMUX6kw/0.jpg)](https://youtu.be/lLQSGMUX6kw)
+![demo](https://youtu.be/lLQSGMUX6kw)
 
 
 ## Project Structure
