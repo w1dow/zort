@@ -1,0 +1,2 @@
+models/facenet.pb filter=lfs diff=lfs merge=lfs -text
+lib/libtensorflow_jni-1.15.0.jar filter=lfs diff=lfs merge=lfs -text
