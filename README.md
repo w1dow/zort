@@ -1,18 +1,25 @@
-## Getting Started
+# Zort
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Zort is a Java-based project that organizes and processes images using computer vision. It can detect faces and manage datasets for machine learning models.
 
-## Folder Structure
+## Project Structure
 
-The workspace contains two folders by default, where:
+- `src/` - Source code of the project
+- `bin/` - Compiled binaries
+- `lib/` - Libraries (currently ignored in Git, to be added via LFS if needed)
+- `models/` - Pre-trained models (ignored in Git for now)
+- `.vscode/` - VS Code configuration
+- `deploy.prototxt` - Model deployment configuration
+- `README.md` - Project documentation
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Organizes images by detected faces
+- Supports multiple pre-trained models (TensorFlow, OpenCV)
+- Lightweight Git repository without large model files
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Setup
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/w1dow/zort.git
